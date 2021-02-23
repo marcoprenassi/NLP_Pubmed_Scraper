@@ -17,7 +17,6 @@ class PubMedObject(object):
     # search_term is the string used in the search box on the PubMed website
     def __init__(self, pmid=None, url='', search_term='', page_number=1):
         page = ''
-        print('OK')
         if pmid:
             pmid = pmid.strip()
             url = "http://www.ncbi.nlm.nih.gov/pubmed/%s" % pmid
@@ -40,25 +39,26 @@ class AbstractLister(object):
         self.page_number = page_number
 
     def getList(self):
-        pubmedObject = PubMedObject(search_term = self.search_terms, page_number = self.page_number).render();
-        search_page = pubmedObject.find_all("span","docsum-pmid")
-        abstract_PMID = []
-        [abstract_PMID.append(pmid.text) for pmid in search_page]
-        abstract_list = []
-        print(abstract_PMID)
-        for pmid in abstract_PMID:
-            try:
+        try:
+            pubmedObject = PubMedObject(search_term = self.search_terms, page_number = self.page_number).render();
+            search_page = pubmedObject.find_all("span","docsum-pmid")
+            abstract_PMID = []
+            [abstract_PMID.append(pmid.text) for pmid in search_page]
+            abstract_list = []
+            print(abstract_PMID)
+            for pmid in abstract_PMID:
                 single_article = PubMedObject(pmid = pmid).render()
                 abstract_raw = single_article.find(id='abstract')
                 print(pmid)
                 sentences_temp = nltk.sent_tokenize(abstract_raw.text.lower())
                 sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
-                sentences_temp = [nltk.pos_tag(sent) for sent in sentences]
+                sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
+                print(sentences_temp)
                 abstract_list.append(sentences_temp)
-            except:
-                print('Article not readable')
-        return abstract_list
+        except:
+            print('No readable article')
 
+        return abstract_list
 
 
 #%%
