@@ -49,25 +49,30 @@ class AbstractLister(object):
             [abstract_PMID.append(pmid.text) for pmid in search_page]
             self.abstract_list = []
             self.abstract_list_raw = []
+            abstract_log_list = ''
             strPmids = ''
-            print(abstract_PMID)
+            #print(abstract_PMID)
             for pmid in abstract_PMID:
                 try:
                     single_article = PubMedObject(pmid = pmid).render()
                     abstract_raw = single_article.find(id='abstract')
+                    abstract_log_list = abstract_log_list + ("\n Abstract "+pmid + "\n"+abstract_raw.text)
                     title = single_article.find("h1", {"class": "heading-title"},text=True)
-                    print(pmid+ ": \n")
                     strPmids = strPmids+ pmid+ ": "+  strPmids.join(str.strip() for str in title.contents) + "\n"
                     GUI_Object.update(strPmids)
                     sentences_temp = nltk.sent_tokenize(abstract_raw.text.lower())
                     sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
-
-
                     self.abstract_list_raw.append(sentences_temp)
                     sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
                     self.abstract_list.append(sentences_temp)
                 except Exception as e:
                     print(e)
+            try:
+                file_log = open("AbstractLog.txt","w+")
+                file_log.write(abstract_log_list)
+                file_log.close();
+            except:
+                print("Log file error")
         except:
             print('Search failed')
 
@@ -97,11 +102,26 @@ class AbstractLister(object):
                                 NP_list.append(node[ treeposition[:-1] ])
                                 #print(treeposition);
                                 #print(chuncks[ treeposition[:-1] ])
-                                print(node[ treeposition[:-1] ])
+                                #self.GUI_Object.update(NP_list)
                             except:
                                 a = 0
             chuncked_data = []
+
+
         return NP_list
+
+    def parameterExtractor(self):
+        chuncked_list = [];
+        chuncked_data = [];
+        NP_list =  [];
+        try:
+            [chuncked_list.append(abstract) for abstract in self.abstract_list_raw if re.search("\d*\.?\d+)\s?(\w+)",abstract)]
+            print(abstract)
+        except:
+            print("None")
+            #chuncked_list.append(chuncked_data)
+        chuncked_data = []
+        return chuncked_list
 
     def wordExtractor(self):
         return self.abstract_list_raw

@@ -1,0 +1,228 @@
+
+ Abstract 22737049
+
+
+        Abstract
+        
+      
+
+
+      
+      Lack of neural innervation due to neurological damage renders muscle unable to produce force. Use of electrical stimulation is a medium in which investigators have tried to find a way to restore movement and the ability to perform activities of daily living. Different methods of applying electrical current to modify neuromuscular activity are electrical stimulation (ES), neuromuscular electrical stimulation (NMES), transcutaneous electrical nerve stimulation (TENS), and functional electrical stimulation (FES). This review covers the aspects of electrical stimulation used for rehabilitation and functional purposes. Discussed are the various parameters of electrical stimulation, including frequency, pulse width/duration, duty cycle, intensity/amplitude, ramp time, pulse pattern, program duration, program frequency, and muscle group activated, and how they affect fatigue in the stimulated muscle.
+    
+
+
+
+          Keywords:
+        
+      
+      functional; paralysis; rehabilitation; spinal cord injury; stroke.
+    
+
+ Abstract 26359343
+
+
+        Abstract
+        
+      
+
+
+      
+      Peripheral nerve injury afflicts individuals from all walks of life. Despite the peripheral nervous system's intrinsic ability to regenerate, many patients experience incomplete functional recovery. Surgical repair aims to expedite this recovery process in the most thorough manner possible. However, full recovery is still rarely seen especially when nerve injury is compounded with polytrauma where surgical repair is delayed. Pharmaceutical strategies supplementary to nerve microsurgery have been investigated but surgery remains the only viable option. Brief low-frequency electrical stimulation of the proximal nerve stump after primary repair has been widely investigated. This article aims to review the currently known biological basis for the regenerative effects of acute brief low-frequency electrical stimulation on axonal regeneration and outline the recent clinical applications of the electrical stimulation protocol to demonstrate the significant translational potential of this modality for repairing peripheral nerve injuries. The review concludes with a discussion of emerging new advancements in this exciting area of research. The current literature indicates the imminent clinical applicability of acute brief low-frequency electrical stimulation after surgical repair to effectively promote axonal regeneration as the stimulation has yielded promising evidence to maximize functional recovery in diverse types of peripheral nerve injuries.
+    
+
+
+
+          Keywords:
+        
+      
+      microsurgery; nerve tissue; nervous system; neurotrophic factors; peripheral nerve injuries; recovery of function; trauma.
+    
+
+ Abstract 21847574
+
+
+        Abstract
+        
+      
+
+
+      
+      Elite sport requires high-volume and high-intensity training that inevitably induces neuromuscular fatigue detrimental for physical performance. Improving recovery processes is, therefore, fundamental and to this, a wide variety of recovery modalities could be proposed. Among them, neuromuscular electrical stimulation is largely adopted particularly by endurance-type and team sport athletes. This type of solicitation, when used with low stimulation frequencies, induces contractions of short duration and low intensity comparable to active recovery. This might be of interest to favour muscle blood flow and therefore metabolites washout to accelerate recovery kinetics during and after fatiguing exercises, training sessions or competition. However, although electrical stimulation is often used for recovery, limited evidence exists regarding its effects for an improvement of most physiological variables or reduced subjective rating of muscle soreness. Therefore, the main aim of this brief review is to present recent results from the literature to clarify the effectiveness of electrical stimulation as a recovery modality.
+    
+
+
+ Abstract 20473619
+
+
+        Abstract
+        
+      
+
+
+      
+      The main aim of this review is to discuss some evidence-based physiological and methodological considerations for optimal use of neuromuscular electrical stimulation (NMES) in healthy and impaired skeletal muscles. After a quick overview of the main applications, interests and limits of NMES use, the first section concentrates on two crucial aspects of NMES physiology: the differences in motor unit recruitment pattern between NMES and voluntary contractions, and the involvement of the nervous system during peripheral NMES. The second section of the article focuses on the most common NMES parameters, which entail the characteristics of both the electrical current (the input) and the evoked contraction (the output).
+    
+
+
+ Abstract 29995088
+
+
+        Abstract
+        
+          
+            in
+            
+              
+                
+                  
+                    English, 
+                  
+
+                    Portuguese
+                  
+
+
+
+
+
+          Objective:
+        
+      
+      To review the evidence on the safety of neuromuscular electrical stimulation when used in the intensive care unit.
+    
+
+
+          Methods:
+        
+      
+      A systematic review was conducted; a literature search was performed of the MEDLINE (via PubMed), PEDro, Cochrane CENTRAL and EMBASE databases, and a further manual search was performed among the references cited in randomized studies. Randomized clinical trials that compared neuromuscular electrical stimulation to a control or placebo group in the intensive care unit and reporting on the technique safety in the outcomes were included. Hemodynamic variables and information on adverse effects were considered safety parameters. Articles were independently analyzed by two reviewers, and the data analysis was descriptive.
+    
+
+
+          Results:
+        
+      
+      The initial search located 1,533 articles, from which only four randomized clinical trials were included. Two studies assessed safety based on hemodynamic variables, and only one study reported an increase in heart rate, respiratory rate and blood lactate, without clinical relevance. The other two studies assessed safety based on reported adverse effects. In one, 15% of patients described a prickling sensation, without any clinically relevant abnormalities. In the other, one patient suffered a superficial burn due to improper parameter configuration.
+    
+
+
+          Conclusion:
+        
+      
+      Neuromuscular electrical stimulation is safe for critically ill patients; however, it should be applied by duly trained professionals and with proper evidence-based parameters.
+    
+
+
+
+
+          Objetivo:
+        
+      
+      Revisar as evidências sobre segurança da eletroestimulação neuromuscular quando utilizada em unidade de terapia intensiva.
+    
+
+
+          Métodos:
+        
+      
+      Revisão sistemática, sendo a busca realizada nas bases de dados MEDLINE (acessado via PubMed), PEDro, Cochrane CENTRAL e EMBASE, além de busca manual de referências em estudos randomizados. Foram incluídos ensaios clínicos randomizados que comparassem aplicação da eletroestimulação neuromuscular com grupo controle ou placebo em unidades de terapia intensiva, e que contivessem informações sobre segurança da técnica nos desfechos, sendo considerado como segurança dados de variáveis hemodinâmicas e informações sobre efeitos adversos.
+    
+
+
+          Resultados:
+        
+      
+      Os artigos foram analisados por dois revisores independentes, e a análise dos dados foi descritiva. A busca inicial encontrou 1.533 artigos; destes, foram incluídos somente 4 ensaios clínicos randomizados. Dois estudos avaliaram segurança por meio das variáveis hemodinâmicas, e somente um deles mostrou aumento nas frequências cardíacas, respiratória e lactato, porém sem relevância clínica. Os outros dois estudos avaliaram a segurança por meio do relato de efeitos adversos; um expôs que 15% dos pacientes apresentaram sensação de picada, sem alteração clinicamente relevante; o outro relatou apenas que um paciente sofreu queimadura superficial por configuração incorreta dos parâmetros.
+    
+
+
+          Conclusão:
+        
+      
+      A eletroestimulação neuromuscular é uma técnica segura para ser aplicada em pacientes graves, porém deve ser aplicada por profissional treinado e utilizando parâmetros corretos, baseados em evidências.
+    
+
+
+ Abstract 29953381
+
+
+        Abstract
+        
+      
+
+
+      
+      Electrical stimulation of the gastrointestinal (GI) tract, analogous to pacing the human heart, is an attractive idea. This is because these organs, like the heart, have their own natural pacemakers, and the electrical signals they generate can be altered by externally delivering certain types of electric currents via intraluminal or serosal electrodes to certain areas of the GI tract. A number of studies on animals have been accomplished successfully to treat a variety of disease models, including gastroparesis, dumping, and short bowel syndrome. Over the past 10 years or so, electrical stimulation of the GI tract has received increasing attention among researchers and clinicians because of new techniques, such as implantable devices, and promising results achieved in treatment of gastroparesis and morbid obesity. The objective of this article is to review the advances in electrical stimulation of the gastrointestinal tract. First the electrophysiology of the GI tract and history of GI electrical stimulation are introduced. Then various methods of electrical stimulation of the stomach and small bowel in healthy animals and models of GI diseases are reviewed. Finally clinical applications of electrical stimulation to GI disorders and their possible mechanisms are discussed.
+    
+
+
+ Abstract 21870119
+
+
+        Abstract
+        
+      
+
+
+      
+      Neuromuscular electrical stimulation (NMES) is commonly used in clinical settings to activate skeletal muscle in an effort to mimic voluntary contractions and enhance the rehabilitation of human skeletal muscles. It is also used as a tool in research to assess muscle performance and/or neuromuscular activation levels. However, there are fundamental differences between voluntary- and artificial-activation of motor units that need to be appreciated before NMES protocol design can be most effective. The unique effects of NMES have been attributed to several mechanisms, most notably, a reversal of the voluntary recruitment pattern that is known to occur during voluntary muscle contractions. This review outlines the assertion that electrical stimulation recruits motor units in a nonselective, spatially fixed, and temporally synchronous pattern. Additionally, it synthesizes the evidence that supports the contention that this recruitment pattern contributes to increased muscle fatigue when compared with voluntary actions and provides some commentary on the parameters of electrical stimulation as well as emerging technologies being developed to facilitate NMES implementation. A greater understanding of how electrical stimulation recruits motor units, as well as the benefits and limitations of its use, is highly relevant when using this tool for testing and training in rehabilitation, exercise, and/or research.
+    
+
+
+ Abstract 30658656
+
+
+        Abstract
+        
+      
+
+
+
+          Background:
+        
+      
+      Electrical stimulation of peripheral nerves is used in a variety of applications such as restoring motor function in paralyzed limbs, and more recently, as means to provide intuitive sensory feedback in limb prostheses. However, literature on the safety requirements for stimulation is scarce, particularly for chronic applications. Some aspects of nerve interfacing such as the effect of stimulation parameters on electrochemical processes and charge limitations have been reviewed, but often only for applications in the central nervous system. This review focuses on the safety of electrical stimulation of peripheral nerve in humans.
+    
+
+
+          Methods:
+        
+      
+      We analyzed early animal studies evaluating damage thresholds, as well as more recent investigations in humans. Safety requirements were divided into two main categories: passive and active safety. We made the distinction between short-term (< 30 days) and chronic (> 30 days) applications, as well as between electrode preservation (biostability) and body tissue healthy survival (harmlessness). In addition, transferability of experimental results between different tissues and species was considered.
+    
+
+
+          Results:
+        
+      
+      At present, extraneural electrodes have shown superior long-term stability in comparison to intraneural electrodes. Safety limitations on pulse amplitude (and consequently, charge injection) are dependent on geometrical factors such as electrode placement, size, and proximity to the stimulated fiber. In contrast, other parameters such as stimulation frequency and percentage of effective stimulation time are more generally applicable. Currently, chronic stimulation at frequencies below 30 Hz and percentages of effective stimulation time below 50% is considered safe, but more precise data drawn from large databases are necessary. Unfortunately, stimulation protocols are not systematically documented in the literature, which limits the feasibility of meta-analysis and impedes the generalization of conclusions. We therefore propose a standardized list of parameters necessary to define electrical stimulation and allow future studies to contribute to meta-analyses.
+    
+
+
+          Conclusion:
+        
+      
+      The safety of chronic continuous peripheral nerve stimulation at frequencies higher than 30 Hz has yet to be documented. Precise parameter values leading to stimulation-induced depression of neuronal excitability (SIDNE) and neuronal damage, as well as the transition between the two, are still lacking. At present, neural damage mechanisms through electrical stimulation remain obscure.
+    
+
+
+
+          Keywords:
+        
+      
+      Electrical stimulation; Implants; Nerve stimulation; Peripheral nervous system; Safety.
+    
+
+ Abstract 29499017
+
+
+        Abstract
+        
+      
+
+
+      
+      Cortical electrical stimulation mapping is often required to accurately delineate eloquent function before resective surgery for tumors or epilepsy. Although the technique is well established in adults, mapping poses special challenges in children that are addressed in this article. The concept of what constitutes a critical cortex is more difficult to assess, given the implications of plasticity and impact of deficits. Developmental factors affect the underlying neurophysiologic bases of responses to electrical stimulation, and evolving maturation requires adaptation of methodology. Furthermore, malformative substrates are the commonest substrate and often lead to aberrant representations of eloquent function.
+    
+
