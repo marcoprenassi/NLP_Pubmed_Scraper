@@ -37,44 +37,78 @@ class AbstractLister(object):
     abstract_list = None  ## TODO: every Null check
     abstract_list_raw = None
     GUI_Object = None
+    abstract_sentences_list_raw = None
 
-    def __init__(self, search_terms, page_number, GUI_Object):
+    def __init__(self, GUI_Object, search_terms = '', page_number = 1, filename = None):
+        print(0)
+        print(filename)
         self.search_terms = search_terms
         self.page_number = page_number
         self.GUI_Object = GUI_Object
-        try:
-            pubmedObjectCollection = PubMedObject(search_term = self.search_terms, page_number = self.page_number).render();
-            search_page = pubmedObjectCollection.find_all("span","docsum-pmid")
-            abstract_PMID = []
-            [abstract_PMID.append(pmid.text) for pmid in search_page]
-            self.abstract_list = []
-            self.abstract_list_raw = []
-            abstract_log_list = ''
-            strPmids = ''
-            #print(abstract_PMID)
-            for pmid in abstract_PMID:
+        self.abstract_list = []
+        self.abstract_list_raw = []
+        self.abstract_sentences_list_raw = []
+        if filename is None:
+            try:
+                print(1)
+                pubmedObjectCollection = PubMedObject(search_term = self.search_terms, page_number = self.page_number).render();
+                search_page = pubmedObjectCollection.find_all("span","docsum-pmid")
+                abstract_PMID = []
+                [abstract_PMID.append(pmid.text) for pmid in search_page]
+                abstract_log_list = ''
+                strPmids = ''
+                counter = 0;
+                #print(abstract_PMID)
+                for pmid in abstract_PMID:
+                    try:
+                        counter += 1;
+                        single_article = PubMedObject(pmid = pmid).render()
+                        abstract_raw = single_article.find(id='abstract')
+                        abstract_log_list = abstract_log_list + ("\n Abstract "+pmid + "\n"+abstract_raw.text)
+                        title = single_article.find("h1", {"class": "heading-title"},text=True)
+                        strPmids = strPmids+ pmid+ ": "+  strPmids.join(str.strip() for str in title.contents) + "\n"
+                        GUI_Object.update(strPmids)
+                        self.abstract_list_raw.append(abstract_raw.text.lower())
+                        sentences_temp = nltk.sent_tokenize(abstract_raw.text.lower())
+                        sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
+                        self.abstract_sentences_list_raw.append(sentences_temp)
+                        sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
+                        self.abstract_list.append(sentences_temp)
+                        print(counter)
+                    except Exception as e:
+                        print(e)
                 try:
-                    single_article = PubMedObject(pmid = pmid).render()
-                    abstract_raw = single_article.find(id='abstract')
-                    abstract_log_list = abstract_log_list + ("\n Abstract "+pmid + "\n"+abstract_raw.text)
-                    title = single_article.find("h1", {"class": "heading-title"},text=True)
-                    strPmids = strPmids+ pmid+ ": "+  strPmids.join(str.strip() for str in title.contents) + "\n"
-                    GUI_Object.update(strPmids)
-                    sentences_temp = nltk.sent_tokenize(abstract_raw.text.lower())
-                    sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
-                    self.abstract_list_raw.append(sentences_temp)
-                    sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
-                    self.abstract_list.append(sentences_temp)
+                    file_log = open("AbstractLog.txt","w+",encoding="utf-8")
+                    file_log.write(abstract_log_list)
+                    file_log.close();
                 except Exception as e:
                     print(e)
-            try:
-                file_log = open("AbstractLog.txt","w+")
-                file_log.write(abstract_log_list)
-                file_log.close();
             except:
-                print("Log file error")
-        except:
-            print('Search failed')
+                print('Search failed')
+        else:
+            self.GUI_Object = GUI_Object
+            try:
+                print(2)
+                print(filename)
+                fopen = open(filename,"r",encoding="utf-8")
+                abstracts_raw = fopen.read()
+                loaded_abstracts = re.split('Abstract', abstracts_raw)
+                fopen.close()
+                for abstract in loaded_abstracts:
+                    try:
+                        self.abstract_list_raw.append(abstract)
+                        sentences_temp = nltk.sent_tokenize(abstract)
+                        sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
+                        self.abstract_sentences_list_raw.append(sentences_temp)
+                        sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
+                        self.abstract_list.append(sentences_temp)
+
+
+                    except:
+                        print('No text found')
+            except e:
+                print(e)
+
 
     def getList(self):
         return self.abstract_list
@@ -114,17 +148,20 @@ class AbstractLister(object):
         chuncked_list = [];
         chuncked_data = [];
         NP_list =  [];
+        words = None
         try:
-            [chuncked_list.append(abstract) for abstract in self.abstract_list_raw if re.search("\d*\.?\d+)\s?(\w+)",abstract)]
-            print(abstract)
-        except:
-            print("None")
+            for abstract in self.abstract_list_raw:
+                words = nltk.regexp_tokenize(str(abstract), '(\d*\.?\d+)\s?(\w+)')
+                chuncked_list.append(words)
+            #[chuncked_list.append(abstract) for abstract in self.abstract_list_raw if re.search("\d*\.?\d+)\s?(\w+)",abstract)]
+        except e:
+            print(e)
             #chuncked_list.append(chuncked_data)
         chuncked_data = []
         return chuncked_list
 
     def wordExtractor(self):
-        return self.abstract_list_raw
+        return self.abstract_sentences_list_raw
 
     def statistics(self):
         stopwords = nltk.corpus.stopwords.words('english')
