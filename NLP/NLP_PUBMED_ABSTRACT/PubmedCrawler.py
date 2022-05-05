@@ -1,12 +1,7 @@
-import sys
-import nltk, re, pprint
+import nltk, re
 import requests
-from nltk.probability import ConditionalFreqDist
 from nltk.probability import FreqDist
-from nltk import tokenize
-# %%
 from bs4 import BeautifulSoup
-# %%
 from nltk import word_tokenize
 
 
@@ -26,7 +21,8 @@ class PubMedObject(object):
             page = requests.get(url).text
         if search_term:
             for i in range(page_number):
-                url = "http://www.ncbi.nlm.nih.gov/pubmed/?term=%s&page=%d" % (search_term, i)
+                url = "http://www.ncbi.nlm.nih.gov/pubmed/?term=%s&page=%d" % (
+                search_term, i)  # &sort=pubdate to sort on pubblication date
                 page += (requests.get(url).text)
         self.soup = BeautifulSoup(page, "html.parser")
 
@@ -42,6 +38,8 @@ class AbstractLister(object):
     abstract_list_raw = None
     GUI_Object = None
     abstract_sentences_list_raw = None
+    abstract_title_list = None
+    full_articles = None
 
     def __init__(self, GUI_Object, search_terms='', page_number=1, filename=None):
         print(0)
@@ -52,6 +50,9 @@ class AbstractLister(object):
         self.abstract_list = []
         self.abstract_list_raw = []
         self.abstract_sentences_list_raw = []
+        self.abstract_title_list = []
+        self.full_articles = []
+
         if filename is None:
             try:
                 print(1)
@@ -69,14 +70,31 @@ class AbstractLister(object):
                         counter += 1;
                         single_article = PubMedObject(pmid=pmid).render()
                         abstract_raw = single_article.find(id='abstract')
-                        abstract_log_list = abstract_log_list + ("\n Abstract " + pmid + "\n" + abstract_raw.text)
                         title = single_article.find("h1", {"class": "heading-title"}, text=True)
-                        strPmids = strPmids + pmid + ": " + strPmids.join(str.strip() for str in title.contents) + "\n"
+                        try:
+                            year = 0
+                            yearSearch = single_article.find("span", {"class": "citation-year"}, text=True)
+                            if yearSearch == None:
+                                yearSearch = single_article.find("span", {"class": "cit"}, text=True)
+                            print(yearSearch.contents)
+                            year = int(yearSearch.contents[0][0:4])
+                            print(year)
+                        except Exception:
+                            print("failed year")
+                        self.full_articles.append(single_article)
+                        Pmids_and_title_str_temp = pmid + ": " + strPmids.join(str.strip() for str in title.contents)
+                        strPmids = strPmids + Pmids_and_title_str_temp + "\n"
+
+                        self.abstract_title_list.append(strPmids)
+
                         GUI_Object.update(strPmids)
-                        self.abstract_list_raw.append(abstract_raw.text.lower())
+                        self.abstract_list_raw.append((year, Pmids_and_title_str_temp, abstract_raw.text.lower()))
+                        abstract_log_list = abstract_log_list + ("\nAbstract\n" + "\n  Year: " + str(
+                            year) + "\n  Title: " + Pmids_and_title_str_temp + "\n  Body: " + abstract_raw.text.lower())
+
                         sentences_temp = nltk.sent_tokenize(abstract_raw.text.lower())
                         sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
-                        self.abstract_sentences_list_raw.append(sentences_temp)
+                        self.abstract_sentences_list_raw.append((Pmids_and_title_str_temp, sentences_temp))
                         sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
                         self.abstract_list.append(sentences_temp)
                         print(counter)
@@ -99,18 +117,27 @@ class AbstractLister(object):
                 abstracts_raw = fopen.read()
                 loaded_abstracts = re.split('Abstract', abstracts_raw)
                 fopen.close()
+
                 for abstract in loaded_abstracts:
                     try:
-                        self.abstract_list_raw.append(abstract)
-                        sentences_temp = nltk.sent_tokenize(abstract)
-                        sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
-                        self.abstract_sentences_list_raw.append(sentences_temp)
-                        sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
-                        self.abstract_list.append(sentences_temp)
+                        if (len(abstract) > 20):
+                            year = re.search("(?<=Year: )\d+", abstract)
+                            year = int(year.group())
+                            title = re.search("(?<=Title: ).+", abstract)
+                            title = title.group()
+                            bodyStart = re.search("(?<=Body).+", abstract)
+                            body = abstract[bodyStart.end():len(abstract)]
+
+                            self.abstract_list_raw.append((year, title, body))
+                            sentences_temp = nltk.sent_tokenize(abstract)
+                            sentences_temp = [nltk.word_tokenize(sent) for sent in sentences_temp]
+                            self.abstract_sentences_list_raw.append(sentences_temp)
+                            sentences_temp = [nltk.pos_tag(sent) for sent in sentences_temp]
+                            self.abstract_list.append(sentences_temp)
                     except:
                         print('No text found')
-            except e:
-                print(e)
+            except Exception:
+                print(Exception)
 
     def getList(self):
         return self.abstract_list
@@ -134,7 +161,6 @@ class AbstractLister(object):
                             else:
                                 idx = [i for i, item in enumerate(words) if re.search(node_word, item)]
                             treeposition = node.leaf_treeposition(idx[0])
-
                             NP_list.append(node[treeposition[:-1]])
                             # print(treeposition);
                             # print(chuncks[ treeposition[:-1] ])
@@ -147,16 +173,50 @@ class AbstractLister(object):
 
     def parameterExtractor(self):
         chuncked_list = [];
-        chuncked_data = [];
         NP_list = [];
+        time_list = []
+        parameter_list = []
+        patients_list = []
+        matching_boolean = False
+        corpus_time = ['days', 'months', 'years']
+        corpus_parameters = ['s', 'ms', 'μs', 'hz', 'khz', 'V', 'A', 'mA', 'μA', 'mV', 'μV', 'channels']
+        corpus_patients = ['patients', 'subjects', 'elderly', 'young']
+
+        i = 0
         words = None
         try:
             for abstract in self.abstract_list_raw:
-                words = nltk.regexp_tokenize(str(abstract), '(\d*\.?\d+)\s?(\w+)')
-                chuncked_list.append(words)
+
+                words = nltk.regexp_tokenize(abstract[2], '(\d*\.?\d+)\s?(\w+)')
+                if words != None:
+                    for word in words:
+                        for time in corpus_time:
+                            if word[1] == time:
+                                time_list.append(word)
+                                print('time: ' + str(word))
+                                matching_boolean = True
+                        for parameter in corpus_parameters:
+                            if word[1] == parameter:
+                                parameter_list.append(word)
+                                print('parameter: ' + str(word))
+                                matching_boolean = True
+                        for patient in corpus_patients:
+                            if word[1] == patient:
+                                patients_list.append(word)
+                                print('patient: ' + str(word))
+                                matching_boolean = True
+
+                print(words)
+                if matching_boolean:
+                    chuncked_list.append(
+                        (abstract[0], abstract[1], time_list.copy(), parameter_list.copy(), patients_list.copy()))
+                    matching_boolean = False
+                time_list.clear()
+                parameter_list.clear()
+                patients_list.clear()
             # [chuncked_list.append(abstract) for abstract in self.abstract_list_raw if re.search("\d*\.?\d+)\s?(\w+)",abstract)]
-        except e:
-            print(e)
+        except Exception:
+            print('failed')
             # chuncked_list.append(chuncked_data)
         chuncked_data = []
         return chuncked_list
@@ -167,17 +227,14 @@ class AbstractLister(object):
     def statistics(self):
         stopwords = nltk.corpus.stopwords.words('english')
         punctuation = [',', '.', ';', ':', '(', ')']
-        allWords = []
-        for abstracts in self.abstract_list_raw:
-            for wordList in abstracts:
-                allWords += wordList
-
-        word_freq = nltk.FreqDist(allWords)
-        dict_filter = lambda word_freq, stopwords, punctuation: dict(
-            (word, word_freq[word]) for word in word_freq if word not in (stopwords or punctuation))
-
-        filtered_word_freq = dict_filter(word_freq, stopwords, punctuation)
-
+        complete_corpus = stopwords + punctuation
+        allWords = ''
+        for abstract in self.abstract_list_raw:
+            allWords += abstract[2]
+        word_freq = FreqDist(word for word in word_tokenize(allWords))
+        dict_filter = lambda word_freq, complete_corpus: dict(
+            (word, word_freq[word]) for word in word_freq if word not in complete_corpus)
+        filtered_word_freq = dict_filter(word_freq, complete_corpus)
         return nltk.FreqDist(filtered_word_freq)
 
 # print(AbstractLister(search_terms = 'wrist', page_number = 2).statistics())

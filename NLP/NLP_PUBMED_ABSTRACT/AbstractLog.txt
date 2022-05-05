@@ -1,142 +1,701 @@
 
- Abstract 31898791
+Abstract
 
+  Year: 2012
+  Title: 22737049: Neuromuscular electrical stimulation for skeletal muscle function
+  Body: 
 
-        Abstract
+        abstract
         
       
 
 
       
-      The respiratory system plays an essential role for human life. This system (like all others) undergoes physiological regeneration due to many types of stem cells found both in the respiratory tract itself and in the alveoli. The stem cell hierarchy is very extensive due to their variety in the lungs and is still not completely understood.The best described lung stem cells are alveolar type II cells, which as progenitor lung stem cells are precursors of alveolar type I cells, i.e., cells that perform gas exchange in the lungs. These progenitor stem cells, which reside in alveoli corners, express high levels of surfactant protein C (SFTPC). Despite the fact that type II pneumocytes occupy only 7-10% of the lung surface, there are almost twice as many as alveolar type I cells occupying almost 95% of the surface.Other stem cells making up the lung regenerative potential have also been identified in the lungs. Both endothelial, mesodermal, and epithelial stem cells are necessary for the lungs to function properly and perform their physiological functions.The lungs, like all other organs, undergo an aging process. As a result of this process, not only the total number of cells changes, the percentage of particular types of cells, but also their efficiency is reduced. With age, the proliferative potential of lung stem cells also decreases, not just their number. This brings about the need to increase the intensity of research in the field of regenerative medicine.
+      lack of neural innervation due to neurological damage renders muscle unable to produce force. use of electrical stimulation is a medium in which investigators have tried to find a way to restore movement and the ability to perform activities of daily living. different methods of applying electrical current to modify neuromuscular activity are electrical stimulation (es), neuromuscular electrical stimulation (nmes), transcutaneous electrical nerve stimulation (tens), and functional electrical stimulation (fes). this review covers the aspects of electrical stimulation used for rehabilitation and functional purposes. discussed are the various parameters of electrical stimulation, including frequency, pulse width/duration, duty cycle, intensity/amplitude, ramp time, pulse pattern, program duration, program frequency, and muscle group activated, and how they affect fatigue in the stimulated muscle.
     
 
 
 
-          Keywords:
+          keywords:
         
       
-      Alveolar type II cells; Bronchoalveolar lung stem cells; Club cells; Lung 3D organoid culture; Lung aging; Lung development; Lung regeneration; Lung stem cells; Respiratory system; Type II pneumocytes.
+      functional; paralysis; rehabilitation; spinal cord injury; stroke.
     
 
- Abstract 32252376
+Abstract
 
+  Year: 2016
+  Title: 26359343: Electrical Stimulation to Promote Peripheral Nerve Regeneration
+  Body: 
 
-        Abstract
+        abstract
         
       
 
 
       
-      Bacterial toxins play a key role in the pathogenesis of lung disease. Based on their structural and functional properties, they employ various strategies to modulate lung barrier function and to impair host defense in order to promote infection. Although in general, these toxins target common cellular signaling pathways and host compartments, toxin- and cell-specific effects have also been reported. Toxins can affect resident pulmonary cells involved in alveolar fluid clearance (AFC) and barrier function through impairing vectorial Na+ transport and through cytoskeletal collapse, as such, destroying cell-cell adhesions. The resulting loss of alveolar-capillary barrier integrity and fluid clearance capacity will induce capillary leak and foster edema formation, which will in turn impair gas exchange and endanger the survival of the host. Toxins modulate or neutralize protective host cell mechanisms of both the innate and adaptive immunity response during chronic infection. In particular, toxins can either recruit or kill central players of the lung's innate immune responses to pathogenic attacks, i.e., alveolar macrophages (AMs) and neutrophils. Pulmonary disorders resulting from these toxin actions include, e.g., acute lung injury (ALI), the acute respiratory syndrome (ARDS), and severe pneumonia. When acute infection converts to persistence, i.e., colonization and chronic infection, lung diseases, such as bronchitis, chronic obstructive pulmonary disease (COPD), and cystic fibrosis (CF) can arise. The aim of this review is to discuss the impact of bacterial toxins in the lungs and the resulting outcomes for pathogenesis, their roles in promoting bacterial dissemination, and bacterial survival in disease progression.
-    
-
-
-
-          Keywords:
-        
-      
-      alveolar liquid clearance; alveolar-capillary barrier; bacterial toxins; host defense; inflammation; pulmonary edema.
-    
-
- Abstract 15556096
-
-
-        Abstract
-        
-      
-
-
-      
-      Vertebrate lungs are highly diverse in their structure, topographical position, ventilation mechanisms, constructional integration into the locomotor apparatus, and the interrelationships with the mode of their ontogenetic development. Vertebrate lungs evolved as supplementary air-breathing organs in primary fishes, being ventilated by buccal pumping. In most recent fishes the lungs are transformed into the hydrostatic swimbladder. This basic type of unicameral lungs and their buccal pumping ventilation are also found in recent amphibians. Land vertebrates developed a very efficient aspiration type of ventilation. In most recent reptiles the lungs are subdivided into three rows of lung chambers, enlarging the exchange surface in correlation to their increasing metabolic needs. The avian respiratory apparatus, with its volume-constant lungs and highly compliant air sacs, and the mammalian broncho-alveolar lung, with its very low compliance, are both derived from multicameral lungs. The avian and the mammalian respiratory systems are integrated very differently with the specific constructions of their locomotor apparatusses and the specific mode of their ontogenetic development.
+      peripheral nerve injury afflicts individuals from all walks of life. despite the peripheral nervous system's intrinsic ability to regenerate, many patients experience incomplete functional recovery. surgical repair aims to expedite this recovery process in the most thorough manner possible. however, full recovery is still rarely seen especially when nerve injury is compounded with polytrauma where surgical repair is delayed. pharmaceutical strategies supplementary to nerve microsurgery have been investigated but surgery remains the only viable option. brief low-frequency electrical stimulation of the proximal nerve stump after primary repair has been widely investigated. this article aims to review the currently known biological basis for the regenerative effects of acute brief low-frequency electrical stimulation on axonal regeneration and outline the recent clinical applications of the electrical stimulation protocol to demonstrate the significant translational potential of this modality for repairing peripheral nerve injuries. the review concludes with a discussion of emerging new advancements in this exciting area of research. the current literature indicates the imminent clinical applicability of acute brief low-frequency electrical stimulation after surgical repair to effectively promote axonal regeneration as the stimulation has yielded promising evidence to maximize functional recovery in diverse types of peripheral nerve injuries.
     
 
 
- Abstract 28945476
 
+          keywords:
+        
+      
+      microsurgery; nerve tissue; nervous system; neurotrophic factors; peripheral nerve injuries; recovery of function; trauma.
+    
 
-        Abstract
+Abstract
+
+  Year: 2011
+  Title: 21847574: Does electrical stimulation enhance post-exercise performance recovery?
+  Body: 
+
+        abstract
         
       
 
 
-
-          Rationale:
-        
       
-      To address the lung donor shortage, we obtained institutional review board and US Food and Drug Administration approval to transplant lungs recovered from uncontrolled donation after circulatory determination of death donors (uDCDDs).
+      elite sport requires high-volume and high-intensity training that inevitably induces neuromuscular fatigue detrimental for physical performance. improving recovery processes is, therefore, fundamental and to this, a wide variety of recovery modalities could be proposed. among them, neuromuscular electrical stimulation is largely adopted particularly by endurance-type and team sport athletes. this type of solicitation, when used with low stimulation frequencies, induces contractions of short duration and low intensity comparable to active recovery. this might be of interest to favour muscle blood flow and therefore metabolites washout to accelerate recovery kinetics during and after fatiguing exercises, training sessions or competition. however, although electrical stimulation is often used for recovery, limited evidence exists regarding its effects for an improvement of most physiological variables or reduced subjective rating of muscle soreness. therefore, the main aim of this brief review is to present recent results from the literature to clarify the effectiveness of electrical stimulation as a recovery modality.
     
 
 
-          Objectives:
-        
-      
-      To compare outcomes of recipients of lungs recovered from uDCDDs vs. brain-dead donors.
-    
+Abstract
 
+  Year: 2010
+  Title: 20473619: Physiological and methodological considerations for the use of neuromuscular electrical stimulation
+  Body: 
 
-          Methods:
-        
-      
-      After consent and screening, lungs recovered from uDCDDs were assessed by 4 hours ex vivo lung perfusion (EVLP) and computed tomography (CT) scan.
-    
-
-
-          Measurements and main results:
-        
-      
-      Over the course of 29 months, 502 potential uDCDDs younger than 66 years were identified in a single county, with death declaration by emergency medical services and four emergency departments in this and two other countries. We determined reasons that lungs from these uDCDDs were not able to be transplanted: uDCDDs could not have lungs recovered (224), next-of-kin could not be found or refused to discuss (67), next-of-kin refused (48), medical examiner case (39), logistics/missed (35), and miscellaneous (35). There were 247 medical contraindications: 141 pulmonary and 106 nonpulmonary. Lungs were recovered from 31 uDCDDs. Thirteen lungs did not have EVLP: 5 injured lungs (one pulmonary embolism [PE] with perforated infarct, two motor vehicle crash with severe injuries, one adhesion, and one lightning strike), two large PE, two prolonged ischemic time, two obvious chronic obstructive pulmonary disease, one technical, and one consent withdrawn. Eighteen lungs had EVLP: 10 with immediate edema (three PE, three unknown down time, three long ischemic time, and one ruptured aneurysm into L pleural space, making long cardiopulmonary resuscitation ineffective), and one myocarditis, possible lung involvement. In three lungs, CT showed edema after EVLP: one poor flush and poor EVLP performance, one edema after myocardial infarction (MI) with 10-year history of chronic heart failure, and one edema with MI, resuscitated, arrested again. One concurrent pneumonia was diagnosed by bronchoscopy, CT, and cultures; one patient had chronic obstructive pulmonary disease with small subpleural blebs and poor collapse, confirmed by CT. Two uDCDDs with MIs were suitable but not transplanted: no consented recipient from one large blood type B uDCDD, and the senior surgeon was unavailable to transplant suitable lungs from a uDCDD and did not allow the transplant.
-    
-
-
-          Conclusions:
-        
-      
-      The objective was not met: no lungs from uDCDDs were transplanted. uDCDDs can be a source of lungs for transplant. Resolving logistical challenges and better use of first-person authorization, allowing organ recovery without next-of-kin consent or knowledge of death, could increase yield. Donor medical problems were higher than expected and may limit the effect of uDCDDs on the lung donor pool.
-    
-
-
-          Clinical trial registration:
-        
-NCT01615484.
-    
-
-
- Abstract 10386226
-
-
-        Abstract
+        abstract
         
       
 
 
       
-      1. The pharmacokinetic role of the lungs has been extensively studied using in vitro preparations, but this information has not been well integrated into many systemic pharmacokinetic models. 2. The lung is characterized by short diffusion distances, extremely high relative perfusion and heterogeneous cell types. Anionic and neutral lipophilic drugs have relatively small distribution volumes in the lungs due to their low lipid content. Cationic lipophilic drugs can accumulate in the lungs, probably due to trapping in mitochondria and lysosomes, forming very slowly eluting pools. 3. Drug metabolism in the lungs is possible, but not universal. The lung, generally, has a low activity for many of the metabolic enzymes found in the liver, although this activity is relatively more inducible. The resultant drug extraction would be 'enzyme limited', variable and flow dependent. 4. Double indicator studies of first-pass lung kinetics can characterize short-term distribution in the lungs, but not longer-term distribution or metabolism; the converse applies for studies of drug concentration gradients across the lungs. No single study or model has adequately defined the short- and long-term kinetics of drugs in the lungs. 5. Drug clearance in the lungs can contribute to an apparent total body clearance in excess of hepatic blood flow and cardiac output. The lung is a first pass filter for any drug administered on the venous side of the circulation and can act as a 'capacitor' that damps the first-pass concentration peak in the blood after intravenous bolus injection.
+      the main aim of this review is to discuss some evidence-based physiological and methodological considerations for optimal use of neuromuscular electrical stimulation (nmes) in healthy and impaired skeletal muscles. after a quick overview of the main applications, interests and limits of nmes use, the first section concentrates on two crucial aspects of nmes physiology: the differences in motor unit recruitment pattern between nmes and voluntary contractions, and the involvement of the nervous system during peripheral nmes. the second section of the article focuses on the most common nmes parameters, which entail the characteristics of both the electrical current (the input) and the evoked contraction (the output).
     
 
 
- Abstract 3297175
+Abstract
+
+  Year: 2018
+  Title: 29952946: Effectiveness of percutaneous neuromuscular electrical stimulation for neck pain relief in patients with cervical spondylosis
+  Body: 
+
+        abstract
+        
+      
 
 
-        Abstract
+
+          background:
+        
+      
+      this study aimed to evaluate the effectiveness and safety of percutaneous neuromuscular electrical stimulation (pnmes) for treating neck pain in patients with cervical spondylosis (cs).
+    
+
+
+          methods:
+        
+      
+      one hundred and twenty four patients with neck pain of cs were included, and then they were randomly divided into a pnmes group and a control group in a ratio of 1:1. all patients received pnmes or sham pnmes 30 minutes daily, 3 times weekly for 12 weeks. the primary outcome was assessed by the visual analog scale (vas). the secondary outcomes were evaluated by the cervical range of motion (rom), neck disability index (ndi) score, as well as the adverse events (aes). all outcome measurements were measured at the end of 12-week treatment, and 4-week follow-up after treatment.
+    
+
+
+          results:
+        
+      
+      at the end of the 12-week treatment, and 4-week follow-up, the patients receiving pnmes exhibited more decrease in the mean vas (p < .01), and ndi (p < .01) respectively, compared with the patients receiving sham pnmes. additionally, the increase in the mean rom was also significantly higher in the pnmes group than that in the sham pnmes group at the end of the 12-week treatment, and 4-week follow-up, respectively (p < .01). no aes were found in either group.
+    
+
+
+          conclusions:
+        
+      
+      the results of this study demonstrated that pnmes is more effective than sham pnmes for neck pain relief in patients with cs.
+    
+
+
+Abstract
+
+  Year: 2017
+  Title: 29953381: Developments in Gastrointestinal Electrical Stimulation
+  Body: 
+
+        abstract
         
       
 
 
       
-      Morphological, biochemical and pathophysiological data on the significance of the metabolic (non-respiratory) function of the lungs in the regulation of homeostasis have been summarized. The key "strategic" position of the lungs in the blood circulation system, the concentration of a unique set of biochemical regulatory factors in the lung endothelium, as well the presence of a multiple system of nervous and humoral control ensure the realization of a specific mission by lungs as a regulator of the functional integrity of the organism. The lungs serve as a barrier controlling the passage of deleterious substances into arterial blood and consequently into the brain and other organs and at the same time the lungs are responsible for the controlled synthesis and elimination of physiologically active substances essential for the work of the same systems. These functions attain special significance under stress-induced situations as a result of homeostatic disruptions and as a consequence of grave extrapulmonary injuries. The author's concept on a compensatory function of the lung kallikrein-kinin system under extreme conditions of organism is given. This pathway opens up the prospects for search of ways of correcting functional disruption in organism.
+      electrical stimulation of the gastrointestinal (gi) tract, analogous to pacing the human heart, is an attractive idea. this is because these organs, like the heart, have their own natural pacemakers, and the electrical signals they generate can be altered by externally delivering certain types of electric currents via intraluminal or serosal electrodes to certain areas of the gi tract. a number of studies on animals have been accomplished successfully to treat a variety of disease models, including gastroparesis, dumping, and short bowel syndrome. over the past 10 years or so, electrical stimulation of the gi tract has received increasing attention among researchers and clinicians because of new techniques, such as implantable devices, and promising results achieved in treatment of gastroparesis and morbid obesity. the objective of this article is to review the advances in electrical stimulation of the gastrointestinal tract. first the electrophysiology of the gi tract and history of gi electrical stimulation are introduced. then various methods of electrical stimulation of the stomach and small bowel in healthy animals and models of gi diseases are reviewed. finally clinical applications of electrical stimulation to gi disorders and their possible mechanisms are discussed.
     
 
 
- Abstract 26413517
+Abstract
 
+  Year: 2018
+  Title: 29499017: Cortical Electrical Stimulation Mapping: Special Considerations in Children
+  Body: 
 
-        Abstract
+        abstract
         
       
 
 
       
-      Using anatomical, digital, and statistical methods we examined the three-dimensional growth of the lungs in 67 human fetuses aged 16-25 weeks. The lung dimensions revealed no sex differences. The transverse and sagittal diameters and the base circumference were greater in the right lungs while the lengths of anterior and posterior margins and the lung height were greater in the left lungs. The best-fit curves for all the lung parameters were natural logarithmic models. The transverse-to-sagittal diameter ratio remained stable and averaged 0.56 ± 0.08 and 0.52 ± 0.08 for the right and left lungs, respectively. For the right and left lungs, the transverse diameter-to-height ratio significantly increased from 0.74 ± 0.09 to 0.92 ± 0.08 and from 0.56 ± 0.07 to 0.79 ± 0.09, respectively. The sagittal diameter-to-height ratio significantly increased from 1.41 ± 0.23 to 1.66 ± 0.18 in the right lung, and from 1.27 ± 0.17 to 1.48 ± 0.22 in the left lung. In the fetal lungs, their proportionate increase in transverse and sagittal diameters considerably accelerates with relation to the lung height. The lung dimensions in the fetus are relevant in the evaluation of the normative pulmonary growth and the diagnosis of pulmonary hypoplasia. 
+      cortical electrical stimulation mapping is often required to accurately delineate eloquent function before resective surgery for tumors or epilepsy. although the technique is well established in adults, mapping poses special challenges in children that are addressed in this article. the concept of what constitutes a critical cortex is more difficult to assess, given the implications of plasticity and impact of deficits. developmental factors affect the underlying neurophysiologic bases of responses to electrical stimulation, and evolving maturation requires adaptation of methodology. furthermore, malformative substrates are the commonest substrate and often lead to aberrant representations of eloquent function.
     
 
+
+Abstract
+
+  Year: 2019
+  Title: 30658656: Safety of long-term electrical peripheral nerve stimulation: review of the state of the art
+  Body: 
+
+        abstract
+        
+      
+
+
+
+          background:
+        
+      
+      electrical stimulation of peripheral nerves is used in a variety of applications such as restoring motor function in paralyzed limbs, and more recently, as means to provide intuitive sensory feedback in limb prostheses. however, literature on the safety requirements for stimulation is scarce, particularly for chronic applications. some aspects of nerve interfacing such as the effect of stimulation parameters on electrochemical processes and charge limitations have been reviewed, but often only for applications in the central nervous system. this review focuses on the safety of electrical stimulation of peripheral nerve in humans.
+    
+
+
+          methods:
+        
+      
+      we analyzed early animal studies evaluating damage thresholds, as well as more recent investigations in humans. safety requirements were divided into two main categories: passive and active safety. we made the distinction between short-term (< 30 days) and chronic (> 30 days) applications, as well as between electrode preservation (biostability) and body tissue healthy survival (harmlessness). in addition, transferability of experimental results between different tissues and species was considered.
+    
+
+
+          results:
+        
+      
+      at present, extraneural electrodes have shown superior long-term stability in comparison to intraneural electrodes. safety limitations on pulse amplitude (and consequently, charge injection) are dependent on geometrical factors such as electrode placement, size, and proximity to the stimulated fiber. in contrast, other parameters such as stimulation frequency and percentage of effective stimulation time are more generally applicable. currently, chronic stimulation at frequencies below 30 hz and percentages of effective stimulation time below 50% is considered safe, but more precise data drawn from large databases are necessary. unfortunately, stimulation protocols are not systematically documented in the literature, which limits the feasibility of meta-analysis and impedes the generalization of conclusions. we therefore propose a standardized list of parameters necessary to define electrical stimulation and allow future studies to contribute to meta-analyses.
+    
+
+
+          conclusion:
+        
+      
+      the safety of chronic continuous peripheral nerve stimulation at frequencies higher than 30 hz has yet to be documented. precise parameter values leading to stimulation-induced depression of neuronal excitability (sidne) and neuronal damage, as well as the transition between the two, are still lacking. at present, neural damage mechanisms through electrical stimulation remain obscure.
+    
+
+
+
+          keywords:
+        
+      
+      electrical stimulation; implants; nerve stimulation; peripheral nervous system; safety.
+    
+
+Abstract
+
+  Year: 1997
+  Title: 9413861: Functional electrical stimulation
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      in the health-care professions, electrical stimulation is used for three purposes: to aid diagnosis; as a therapeutic tool; and to restore lost or damaged functions. functional electrical stimulation (fes) and functional neurostimulation (fns) are terms which are more or less interchangeable, and which encompass the third of these purposes. fes itself can also be conveniently divided into three classes, according to purpose: the restoration of sensor functions; the restoration of skeleto-motor functions; and the restoration of autonomic functions. potentially, a fourth class would comprise devices restoring cognitive or psychological functions, but no such devices are clinically available as yet. the methods and devices which are currently available for providing fes are reviewed, as are the sorts of result and benefit that may be expected from them. the structure and emphasis of the review is on the clinical applications and the relevant anatomical and neurophysiological considerations and this approach is chosen for two main reasons. firstly, the clinical, anatomical, and physiological considerations are independent of technological change and development, so they will not become quickly out of date. secondly, the author is a clinician by profession, and an engineer only by inclination. the functional aims of fes methods will continue to develop as a result of experience gained following the introduction and use of successful devices, and these evolutionary improvements will come from within the fes programme; but the engineering embodiment of those devices may be revolutionized at any time by technological advances coming from elsewhere.
+    
+
+
+Abstract
+
+  Year: 2019
+  Title: 31323281: Neural responses to electrical stimulation in 2D and 3D in vitro environments
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      electrical stimulation (es) to manipulate the central (cns) and peripheral nervous system (pns) has been explored for decades, recently gaining momentum as bioelectronic medicine advances. the application of es in vitro to modulate a variety of cellular functions, including regenerative potential, migration, and stem cell fate, are being explored to aid neural degeneration, dysfunction, and injury. this review describes the materials and approaches for the application of es to the pns and cns microenvironments, towards an improved understanding of how es can be harnessed for beneficial clinical applications. emphasized are some recent advances in es, including conductive polymers, methods of charge transfer, impact on neural cells, and a brief overview of alternative methodologies for cellular targeting including magneto, ultrasonic, and optogenetic stimulation. this review will examine how heterogenous cell populations, including neurons, glia, and neural stem cells respond to a wide range of conductive 2d and 3d substrates, stimulation regimes, known mechanisms of response, and how cellular sources impact the response to es.
+    
+
+
+
+          keywords:
+        
+      
+      charge transfer; conductive materials; electrical stimulation; glia; neural stem cells; neurite; neurons.
+    
+
+Abstract
+
+  Year: 2013
+  Title: 24112880: Principles of electrical stimulation of neural tissue
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      deep brain stimulation is a remarkable therapy that has mainstreamed electrical stimulation of the brain for the treatment of neurological dysfunction. to appreciate the mechanisms of deep brain stimulation, we need to understand the excitability of neural tissue. here, we survey the pertinent principles of electrical excitation in the brain. the amount of current delivered and the tissue conductivity together determine the strength and extent of potentials generated by stimulation. the electrode-tissue interface is an important junction where electrical charge carriers in the stimulation hardware are converted to ionic charge carriers in the tissue. cathodic stimulation tends to depolarize neural elements more easily than anodic stimulation. the current-distance relationship describes how the amount of current needed to excite an axon increases as a function of its distance from the electrode. this relationship also depends on the axon's diameter because large-diameter axons are excited more easily than small-diameter axons. for a given axon, the strength-duration relationship describes the inverse relationship between threshold current amplitude and pulse duration. specific stimulation parameters must be considered to avoid stimulation-induced tissue damage. a strong foundation in these principles facilitates understanding of the complex effects of electrical stimulation in the brain. 
+    
+
+
+
+          keywords:
+        
+      
+      current–distance relationship; deep brain stimulation; electrical stimulation; electrode–tissue interface; stimulation parameters; stimulation waveform; strength–duration relationship; tissue damage.
+    
+
+Abstract
+
+  Year: 2007
+  Title: 17691316: Electrical stimulation and gene-based neuromodulation for control of medically-refractory epilepsy
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      the failure of available antiepileptic medications to adequately control seizures in a substantial number of patients underscores the need to develop novel epilepsy therapies. recent advancements in technology and the success of neuromodulation in treating a variety of neurological disorders have spurred interest in exploring promising therapeutic alternatives, such as electrical stimulation and gene-based synaptic control. a variety of different stimulation approaches to seizure control targeting structures in the central or peripheral nervous system have been investigated. most studies have been based on uncontrolled observations and empirical stimulation protocols. today the vagus nerve stimulator is the only fda approved adjunctive treatment for epilepsy that utilizes electrical stimulation. other potential strategies including direct stimulation of the epileptogenic cortex and deep brain stimulation of various targets are currently under investigation. chronically implanted devices for electrical stimulation have a variety of limitations. first, they are susceptible to malfunction and infection. second, most systems require battery replacement. finally, electrical stimulation is incapable of manipulating neuronal function in a transmitter specific fashion. gene delivery to epileptogenic targets or targets implicated in regulating seizure threshold has been investigated as an alternative means of neuromodulation in animal models. in summary, positive preliminary results and the lack of alternative treatment options provide the impetus for further exploration of electrical stimulation and gene-based therapies in pharmacoresistant epilepsy. various specific targets and approaches to modulating their activity have been investigated in human studies.
+    
+
+
+Abstract
+
+  Year: 2020
+  Title: 32164861: Merging brain-computer interface and functional electrical stimulation technologies for movement restoration
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      bci (brain-computer interface) and functional electrical stimulation (fes) technologies have advanced significantly over the last several decades. recent efforts have involved the integration of these technologies with the goal of restoring functional movement in paralyzed patients. implantable bcis have provided neural recordings with increased spatial resolution and have been combined with sophisticated neural decoding algorithms and increasingly capable fes systems to advance efforts toward this goal. this chapter reviews historical developments that have occurred as the exciting fields of bci and fes have evolved and now overlapped to allow new breakthroughs in medicine, targeting restoration of movement and lost function in users with disabilities.
+    
+
+
+
+          keywords:
+        
+      
+      brain–computer interface; decoding; functional electrical stimulation; implantable electrodes; machine learning; microelectrodes; movement restoration; neural interface; neuromuscular stimulation; paralysis; sensory restoration; signal processing; spinal cord injury; stroke; traumatic brain injury.
+    
+
+Abstract
+
+  Year: 0
+  Title: 29995088: Safety of neuromuscular electrical stimulation among critically ill patients: systematic review
+  Body: 
+
+        abstract
+        
+          
+            in
+            
+              
+                
+                  
+                    english, 
+                  
+
+                    portuguese
+                  
+
+
+
+
+
+          objective:
+        
+      
+      to review the evidence on the safety of neuromuscular electrical stimulation when used in the intensive care unit.
+    
+
+
+          methods:
+        
+      
+      a systematic review was conducted; a literature search was performed of the medline (via pubmed), pedro, cochrane central and embase databases, and a further manual search was performed among the references cited in randomized studies. randomized clinical trials that compared neuromuscular electrical stimulation to a control or placebo group in the intensive care unit and reporting on the technique safety in the outcomes were included. hemodynamic variables and information on adverse effects were considered safety parameters. articles were independently analyzed by two reviewers, and the data analysis was descriptive.
+    
+
+
+          results:
+        
+      
+      the initial search located 1,533 articles, from which only four randomized clinical trials were included. two studies assessed safety based on hemodynamic variables, and only one study reported an increase in heart rate, respiratory rate and blood lactate, without clinical relevance. the other two studies assessed safety based on reported adverse effects. in one, 15% of patients described a prickling sensation, without any clinically relevant abnormalities. in the other, one patient suffered a superficial burn due to improper parameter configuration.
+    
+
+
+          conclusion:
+        
+      
+      neuromuscular electrical stimulation is safe for critically ill patients; however, it should be applied by duly trained professionals and with proper evidence-based parameters.
+    
+
+
+
+
+          objetivo:
+        
+      
+      revisar as evidências sobre segurança da eletroestimulação neuromuscular quando utilizada em unidade de terapia intensiva.
+    
+
+
+          métodos:
+        
+      
+      revisão sistemática, sendo a busca realizada nas bases de dados medline (acessado via pubmed), pedro, cochrane central e embase, além de busca manual de referências em estudos randomizados. foram incluídos ensaios clínicos randomizados que comparassem aplicação da eletroestimulação neuromuscular com grupo controle ou placebo em unidades de terapia intensiva, e que contivessem informações sobre segurança da técnica nos desfechos, sendo considerado como segurança dados de variáveis hemodinâmicas e informações sobre efeitos adversos.
+    
+
+
+          resultados:
+        
+      
+      os artigos foram analisados por dois revisores independentes, e a análise dos dados foi descritiva. a busca inicial encontrou 1.533 artigos; destes, foram incluídos somente 4 ensaios clínicos randomizados. dois estudos avaliaram segurança por meio das variáveis hemodinâmicas, e somente um deles mostrou aumento nas frequências cardíacas, respiratória e lactato, porém sem relevância clínica. os outros dois estudos avaliaram a segurança por meio do relato de efeitos adversos; um expôs que 15% dos pacientes apresentaram sensação de picada, sem alteração clinicamente relevante; o outro relatou apenas que um paciente sofreu queimadura superficial por configuração incorreta dos parâmetros.
+    
+
+
+          conclusão:
+        
+      
+      a eletroestimulação neuromuscular é uma técnica segura para ser aplicada em pacientes graves, porém deve ser aplicada por profissional treinado e utilizando parâmetros corretos, baseados em evidências.
+    
+
+
+Abstract
+
+  Year: 2016
+  Title: 26993563: Single and paired-pulse electrical stimulation during invasive EEG recordings
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      invasive eeg recordings are frequently required during the presurgical exploration of patients with drug-resistant focal epilepsy in order to clarify the epileptic zone location. intracranial direct electrical stimulations (des) induce eeg and/or clinical responses that participate in this evaluation. clinical des protocols (1hz and/or 50hz) trigger massive cortical activation that can elicit seizures, after-discharges or complex clinical signs. in contrast, low-energy (<1hz) protocols activate more localized cortical regions using single-pulse electrical stimulations (spes). spes can elicit two main types of responses. cortico-cortical evoked potentials (cceps) correspond to highly consistent early responses, appearing before 100ms after stimulation, with fixed latency; they are considered physiological and assess the effective connectivity between the recorded regions. late responses appear after 100ms; they are rare, inconsistent with variable latency and are suggestive of an underlying epileptogenic cortex. paired-pulse stimulation paradigm associates a conditioning and a test stimulation to induce intracortical inhibition or facilitation by modifying the response amplitude. largely used in transcranial magnetic stimulation, it has rarely been applied to ccep although the mechanisms put in place seem highly similar. low frequency intracerebral stimulations allow analysing brain connectivity and cortical excitability with a high temporal and spatial resolution. the development of new stimulation protocols and the combination with imaging or statistical techniques recently offered promising results. 
+    
+
+
+
+          keywords:
+        
+      
+      cortical excitability; direct electrical stimulation; epilepsy surgery; paired-pulse electrical stimulation; single-pulse electrical stimulation.
+    
+
+Abstract
+
+  Year: 2019
+  Title: 31414223: Exploring stimulation patterns for electrical stimulation of the larynx using surface electrodes
+  Body: 
+
+        abstract
+        
+      
+
+
+
+          purpose:
+        
+      
+      functional electrical stimulation (fes) is considered an upcoming treatment modality for a number of laryngeal diseases. however, sound data are scarce when it comes to surface fes to treat voice disorders. aim of the present study was to identify and differentiate suitable surface fes patterns to activate internal laryngeal muscles.
+    
+
+
+          methods:
+        
+      
+      non-invasive fes was performed in a cohort of 17 elderly woman. our user-customized electrical stimulation setup allowed us to deliver ten different stimulation patterns (rectangular and sawtooth shaped) with variation of frequency and amplitude. stimulation outcome, i.e., vocal fold (vf) reaction, was continuously verified by transnasal endoscopy.
+    
+
+
+          results:
+        
+      
+      responses to fes using ten different stimulation patterns varied inter-individually. none of the stimulation parameter sets could elicit a vf reaction in all participants.
+    
+
+
+          conclusion:
+        
+      
+      based on our findings we conclude that individual fitting is necessary when defining surface stimulation parameters. to overcome limitations of previous studies, devices with freely programmable patterns are required as shown here. endoscopic control of vf reaction is absolutely essential to ensure effectiveness of the delivered patterns.
+    
+
+
+
+          keywords:
+        
+      
+      dysphonia; laryngeal functional electrical stimulation; presbyphonia; transcutaneous electrical stimulation; voice rehabilitation.
+    
+
+Abstract
+
+  Year: 2015
+  Title: 25498857: Electrical stimulation of the medial forebrain bundle in pre-clinical studies of psychiatric disorders
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      modulating neuronal activity by electrical stimulation has expanded from the realm of motor indications into the field of psychiatric disorders in the past 10 years. the medial forebrain bundle (mfb), with a seminal role in motor, reward orientated and affect regulation behaviors, and its afferent and efferent loci, have been targeted in several dbs trials in patients with psychiatric disorders. however, little is known about the consequences of modulating the mfb in affective disorders. the paper reviews the relevant pre-clinical literature investigating electrical stimulation of regions associated with the mfb in the context of several models of psychiatric disorders, in particular depression. the clinical data is promising but limited, and pre-clinical studies are essential for improved understanding of the anatomy, the connectivity, and the consequences of stimulation of the mfb and regions associated with the neurocircuitry of psychiatric disorders. current data suggests that the mfb is at a "privileged" position on this circuitry and its stimulation can simultaneously modulate activity at other key sites, such as the nucleus accumbens, the ventromedial prefrontal cortex or the ventral tegmental area. future experimental work will need to shed light on the anti-depressive mechanisms of mfb stimulation in order to optimize clinical interventions. 
+    
+
+
+
+          keywords:
+        
+      
+      deep brain stimulation; depression; electrical stimulation; medial forebrain bundle; pre-clinical studies; psychiatric disorders.
+    
+
+Abstract
+
+  Year: 2000
+  Title: 11067581: Electrical stimulation: a societal perspective
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      societal perspective on functional electrical stimulation is colored by media influence, popular thought, and political climate as much as by the science that supports it. the purpose of this article is to examine how these influences facilitate or inhibit the application of electrical stimulation in today's world and to describe the challenges facing the use of electrical stimulation in the future. emphasis will be placed on perceived need, cost, and available resources and how these factors must be addressed to utilize functional electrical stimulation successfully in society.
+    
+
+
+Abstract
+
+  Year: 2019
+  Title: 30646793: A Method for Suppressing Electrical Stimulation Artifacts from Electromyography
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      when surface electromyography (emg) signal is used in a real-time functional electrical stimulation (fes) system for feedback control, the artifact from electrical stimulation is a key challenge for emg signal processing. to address this challenge, this study proposes a novel method to suppress stimulation artifacts in the emg-driven closed-loop fes system. the proposed method is inspired by an experimental study that compares artifacts generated by electrical stimulations with different current intensities. it is found that (1) spikes of stimulation artifacts are susceptible to the current intensity and (2) tailing components are similar under different current intensities. based on these observations, the proposed method combines the blanking and template subtracting strategies for suppressing stimulation artifact. the length of blanking window for suppressing the stimulation spike is adaptively determined by a spike detection algorithm and the first-order derivative analysis of signal. an autoregressive model is used to estimate the tailing part of stimulation artifact, which is an adaptive template for subtracting the artifact. the proposed method is evaluated on both semi-synthetic and experimental datasets. verified on the semi-synthetic dataset, the proposed method achieves better performance than the classic blanking method. validated on the experimental dataset, the proposed method substantially decreases the power of stimulation artifact in the emg. these results indicate that the proposed method can effectively suppress the stimulation artifact while retains the useful emg signal for an emg-driven fes system.
+    
+
+
+
+          keywords:
+        
+      
+      electromyography; m-wave; functional electrical stimulation; stimulation artifact; time-series similarity.
+    
+
+Abstract
+
+  Year: 2014
+  Title: 25287528: Advances in functional electrical stimulation (FES)
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      this review discusses the advancements that are needed to enhance the effects of electrical stimulation for restoring or assisting movement in humans with an injury/disease of the central nervous system. a complex model of the effects of electrical stimulation of peripheral systems is presented. the model indicates that both the motor and sensory systems are activated by electrical stimulation. we propose that a hierarchical hybrid controller may be suitable for functional electrical stimulation (fes) because this type of controller acts as a structural mimetic of its biological counterpart. specific attention is given to the neural systems at the periphery with respect to the required electrodes and stimulators. furthermore, we note that fes with surface electrodes is preferred for the therapy, although there is a definite advantage associated with implantable technology for life-long use. the last section of the review discusses the potential need to combine fes and robotic systems to provide assistance in some cases. 
+    
+
+
+
+          keywords:
+        
+      
+      electrodes; functional electrical stimulation; mimetic model; neurorehabilitation; stimulators.
+    
+
+Abstract
+
+  Year: 2016
+  Title: 26646021: The difference between electrical microstimulation and direct electrical stimulation - towards new opportunities for innovative functional brain mapping?
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      both electrical microstimulation (ems) and direct electrical stimulation (des) of the brain are used to perform functional brain mapping. ems is applied to animal fundamental neuroscience experiments, whereas des is performed in the operating theatre on neurosurgery patients. the objective of the present review was to shed new light on electrical stimulation techniques in brain mapping by comparing ems and des. there is much controversy as to whether the use of des during wide-awake surgery is the 'gold standard' for studying the brain function. as part of this debate, it is sometimes wrongly assumed that ems and des induce similar effects in the nervous tissues and have comparable behavioural consequences. in fact, the respective stimulation parameters in ems and des are clearly different. more surprisingly, there is no solid biophysical rationale for setting the stimulation parameters in ems and des; this may be due to historical, methodological and technical constraints that have limited the experimental protocols and prompted the use of empirical methods. in contrast, the gap between ems and des highlights the potential for new experimental paradigms in electrical stimulation for functional brain mapping. in view of this gap and recent technical developments in stimulator design, it may now be time to move towards alternative, innovative protocols based on the functional stimulation of peripheral nerves (for which a more solid theoretical grounding exists).
+    
+
+
+Abstract
+
+  Year: 2018
+  Title: 29499015: Electrical Stimulation Mapping of the Brain: Basic Principles and Emerging Alternatives
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      the application of electrical stimulation mapping (esm) of the brain for clinical use is approximating a century. despite this long-standing history, the value of esm for guiding surgical resections and sparing eloquent cortex is documented largely by small retrospective studies, and esm protocols are largely inherited and lack standardization. although models are imperfect and mechanisms are complex, the probabilistic causality of esm has guaranteed its perpetuation into the 21st century. at present, electrical stimulation of cortical tissue is being revisited for network connectivity. in addition, noninvasive and passive mapping techniques are rapidly evolving to complement and potentially replace esm in specific clinical situations. lesional and epilepsy neurosurgery cases now offer different opportunities for multimodal functional assessments.
+    
+
+
+Abstract
+
+  Year: 2021
+  Title: 34770555: A Generic Sequential Stimulation Adapter for Reducing Muscle Fatigue during Functional Electrical Stimulation
+  Body: 
+
+        abstract
+        
+      
+
+
+
+          background:
+        
+      
+      clinical applications of conventional functional electrical stimulation (fes) administered via a single electrode are limited by rapid onset neuromuscular fatigue. "sequential" (seq) stimulation, involving the rotation of pulses between multiple active electrodes, has been shown to reduce fatigue compared to conventional fes. however, there has been limited adoption of seq in research and clinical settings.
+    
+
+
+          methods:
+        
+      
+      the seq adapter is a small, battery-powered device that transforms the output of any commercially available electrical stimulator into seq stimulation. we examined the output of the adaptor across a range of clinically relevant stimulation pulse parameters to verify the signal integrity preservation ability of the seq adapter. pulse frequency, amplitude, and duration were varied across discrete states between 4 and 200 hz, 10 and100 ma, and 50 and 2000 μs, respectively.
+    
+
+
+          results:
+        
+      
+      a total of 420 trials were conducted, with 80 stimulation pulses per trial. the seq adapter demonstrated excellent preservation of signal integrity, matching the pulse characteristics of the originating stimulator within 1% error. the seq adapter operates as expected at pulse frequencies up to 160 hz, failing at a frequency of 200 hz.
+    
+
+
+          conclusion:
+        
+      
+      the seq adapter represents an effective and low-cost solution to increase the utilization of seq in existing rehabilitation paradigms.
+    
+
+
+
+          keywords:
+        
+      
+      fatigue reduction; functional electrical stimulation; rehabilitation; sequential stimulation.
+    
+
+Abstract
+
+  Year: 2000
+  Title: 11063097: Electrical bone graft stimulation for spinal fusion: a review
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      although electrical stimulation to aid bone fusion is well established in the treatment of long-bone fractures, its use as an aid in spinal fusion is not as well documented. this article presents the history and scientific basis of electrical stimulation to aid bone fusion and extensively reviews the clinical literature. it is intended to provide an objective review of the indications and limitations of electrical stimulation to enhance spinal fusion and to serve as a reference source for further study.
+    
+
+
+Abstract
+
+  Year: 2018
+  Title: 29415877: Challenges associated with nerve conduction block using kilohertz electrical stimulation
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      neuromodulation therapies, which electrically stimulate parts of the nervous system, have traditionally attempted to activate neurons or axons to restore function or alleviate disease symptoms. in stark contrast to this approach is inhibiting neural activity to relieve disease symptoms and/or restore homeostasis. one potential approach is kilohertz electrical stimulation (kes) of peripheral nerves-which enables a rapid, reversible, and localized block of conduction. this review highlights the existing scientific and clinical utility of kes and discusses the technical and physiological challenges that must be addressed for successful translation of kes nerve conduction block therapies.
+    
+
+
+Abstract
+
+  Year: 2011
+  Title: 22127300: Direct electrical stimulation of human cortex - the gold standard for mapping brain functions?
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      despite its clinical relevance, direct electrical stimulation (des) of the human brain is surprisingly poorly understood. although we understand several aspects of electrical stimulation at the cellular level, surface des evokes a complex summation effect in a large volume of brain tissue, and the effect is difficult to predict as it depends on many local and remote physiological and morphological factors. the complex stimulation effects are reflected in the heterogeneity of behavioural effects that are induced by des, which range from evocation to inhibition of responses - sometimes even when des is applied at the same cortical site. thus, it is a misconception that des - in contrast to other neuroscience techniques - allows us to draw unequivocal conclusions about the role of stimulated brain areas.
+    
+
+
+Abstract
+
+  Year: 2000
+  Title: 11067580: Functional electrical stimulation equipment: a review of marketplace availability and reimbursement
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      functional electrical stimulation (fes) is a rehabilitation tool that has broad application in disability management for improving consumer health and independence. this review examines the availability and delivery of electrical stimulation equipment in a managed care environment, focusing particularly on recent advances and marketplace influences. new electrical stimulation products that are unique in their ability to improve function after disease or injury over conventional drug therapy, surgical intervention, or other rehabilitation techniques are described. research directions, including new uses for existing products to expand patient indications, are discussed. guidelines to assist providers and developers of fes technology with managing the reimbursement process are provided. the successful introduction of recent fes products should pave the way for even more exciting developments. however, reimbursement requires careful and early planning to ensure that fes technologies are available to people who may benefit from them.
+    
+
+
+Abstract
+
+  Year: 2020
+  Title: 32823208: The synergistic effect of biomimetic electrical stimulation and extracellular-matrix-mimetic nanopattern for upregulating cell activities
+  Body: 
+
+        abstract
+        
+      
+
+
+      
+      endogenous bioelectric signaling and the extracellular matrix (ecm) are factors that have a great effect on the performance of cellular functions. presenting an experimental platform to confirm the synergy effects of an electrical stimulation, which simulates endogenous bioelectricity, and nanopatterns that can be precisely fabricated in various patterns sizes makes it possible to consider those factors effectively. herein, we have performed a comparison of cellular response to each of general electrical stimulation and biomimetic electrical stimulation (bes) and demonstrated the synergy effects of electrical stimulation and ecm-mimetic nanopatterns. bes has provided the most remarkable proliferation among different types of electrical stimulation and upregulated the behavior of cells through synergy effects with ecm-mimetic nanopatterns. thus, it is believed that using the synergy effects of bes and ecm-like nanopatterns has broad applications in the biomedical field, such as cell culture with electrical stimulation, induction of cell growth, tissue repair, etc.
+    
+
+
+
+          keywords:
+        
+      
+      biomimetic electrical stimulation; cell proliferation; nanopattern; wound healing.
+    
